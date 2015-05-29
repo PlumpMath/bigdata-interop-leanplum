@@ -102,6 +102,9 @@
     </profile>
     <profile>
       <id>hadoop2</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
       <properties>
         <hadoop.identifier>hadoop2</hadoop.identifier>
       </properties>
